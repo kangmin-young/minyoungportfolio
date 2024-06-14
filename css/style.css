@@ -213,6 +213,7 @@ vertical-align: top;
 .section>div>button:hover{
   background-color: black;
   color: white;
+  transition: all 0.5s ease-out; 
 }
 
 .main4{
@@ -283,6 +284,7 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
   position: absolute;
   top: 50%;
   width: 100%;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   transform: translateY(-50%);
@@ -341,9 +343,7 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
   background: #fff;
   overflow: hidden;
 }
-.cafeimg:hover{
-  background-color: rgba(0, 0, 0, 0.5);
-}
+
 .cafe>div>div>p{
   padding-top: 0px;
   padding-bottom: 50px;
@@ -359,6 +359,7 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
 }
 .cafe>div>a>img:hover{
   transform: scale(1.1);
+  transition: all 1s ease-out; 
 }
 
     /* 모달 팝업 스타일 */
