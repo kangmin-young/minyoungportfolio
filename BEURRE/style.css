@@ -1,0 +1,276 @@
+@charset "utf-8";
+@font-face {
+    src: url(fontface.css);
+}
+
+.inner{
+    width: 950px;
+    margin: auto;
+}
+header{
+    background-color: #005CB9;
+    width: 100%;
+    height: 60px; 
+    box-sizing: border-box;
+}
+.header>p:last-of-type{
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    font-weight:lighter;
+    letter-spacing :1px;
+    position: relative;
+}
+
+body{
+    width: 100%;
+
+}
+svg{
+    left: 0px;
+    width: 32px;
+    height: 23px;
+    padding-top: 20px;
+    position: relative;
+}
+.뵈르뵈르::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(image/insta.webp) no-repeat;
+    position: absolute;
+    top: 18px;left: -10px;
+}
+.뵈르뵈르{
+    position: absolute;
+    top: -45px;
+    left: 300px;
+    width: 400px;
+    height: 26px;
+}
+.logo{
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+}
+.model>img{
+width: 100%;
+height:650px;
+object-fit:cover;
+}
+
+.modelkids>img{
+    width: 100%;
+    height:650px;
+    object-fit:cover;
+    }
+.icecream>img{
+    float: left;
+    width: 50%;
+    height:660px;
+    object-fit:cover;
+}
+.icecreamhouse{
+    width: 50%;
+    height: 660px;
+    float: left;
+    text-align: center;
+    font-family:Arial;
+}
+.icecreamhouse p:first-of-type{
+    margin-top: 216px;
+    font-size: 25px;
+    color: #005CB9;
+    font-weight:  900;
+    
+}
+.icecreamhouse p:nth-of-type(2){
+    font-size: 47px;
+    color:#E70000;
+    margin-top: 15px;
+    font-weight: 900;
+}
+.icecreamhouse p:nth-of-type(3){
+    margin-top: 35px;
+    line-height: 26px;
+    color: #7D7D7B;
+    font-weight: 600;
+
+}
+.icecreamhouse p:last-of-type{
+    margin-top: 35px;
+    color: #005CB9;
+    font-size: 28px;
+    font-weight:  900;
+}
+.MELTING{
+    clear: both;
+    width: 100%;
+    height: 500px;
+    font-size: 110px;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 900;
+    line-height: 164px;
+    color: white;
+    background: url(image/meltingmax.jpg)no-repeat 50% 50% fixed;
+    background-size: cover;
+    font-family:Arial;
+
+}
+.flavors{
+    width: 50%;
+    height: 586px;
+    float: left;
+    text-align: center;
+    font-family:Arial;
+
+}
+.flavors p:first-of-type{
+    margin-top: 216px;
+    font-size: 47px;
+    color: #E70000;
+    font-weight:  900;
+}
+
+.flavors p:nth-of-type(2){
+    margin-top: 35px;
+    line-height: 26px;
+    color: #7D7D7B;
+    font-weight: 600;
+
+}.flavors p:last-of-type{
+    font-size: 28px;
+    color: #005CB9;
+    margin-top: 15px;
+    font-weight: 900;
+}
+.doubleice>img{
+    width: 50%;
+    height:586px;
+    float: right;
+    text-align: center;
+}
+.MELTING2{
+    clear: both;
+    width: 100%;
+    height: 470px;
+    font-size: 110px;
+    text-align: center;
+    padding-top: 135px;
+    font-weight: 900;
+    line-height: 164px;
+    color: white;
+    background: url(image/meltingmax.jpg)no-repeat 50% 50% fixed;
+    background-size: cover;
+    font-family:Arial;
+}
+section{
+    clear: both;
+}
+section{
+    width: 100%;
+    height: 475px;
+
+}
+section >a{
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+section a>div{
+    opacity: 0;
+    color: white;
+    line-height: 22px;
+    width: 475px;
+    height: 475px;
+
+}
+section>a>div{
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition:.3s;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 30px;
+}
+section div:hover{
+    opacity: 1;
+        background: rgba(0, 0, 0, 0.7);
+    }
+.insta1{
+    background: url(image/insta1.jpg)no-repeat;
+    background-size: 475px; 
+}
+.insta2{
+    background: url(image/insta2.heic)no-repeat;
+    background-size: 475px;
+}
+.insta3{
+    background: url(image/insta3.heic)no-repeat;
+    background-size: 475px;
+}
+.insta4{
+    background: url(image/insta4.jpg)no-repeat;
+    background-size: 475px;
+}    
+footer{
+    clear: both;
+    background-color: black;
+    height: 210px;
+}
+.ADDRESS{
+    color: white;
+}
+
+.ADDRESS>li{
+    font-size: 14px;
+    margin-top: 75px;
+    font-weight: bold;
+    float: left;
+}
+.ADDRESS>li:first-of-type{
+    margin-right: 160px;
+}
+.ADDRESS>li:nth-of-type(2){
+    margin-right: 135px;
+}
+.detail{
+    color: white;
+    float: left;
+}
+.detail>li{
+    font-size: 14px;
+    float: left;
+    margin-top: 22px;
+}
+.detail>li:first-of-type{
+    margin-right: 30px;
+}
+.detail>li:nth-of-type(2){
+    margin-right: 43px;
+}
+.black{
+    margin-bottom: 93px;
+    height: 124px;
+}
+.white{
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+
+}
+.white>p{
+    float: left;
+    padding-top: 53px;
+    color: #EBEBEB;
+    padding-bottom: 10px;
+}
+.white>p:first-child{
+    margin-right:220px;
+}
