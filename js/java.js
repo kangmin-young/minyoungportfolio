@@ -61,22 +61,22 @@ $(document).ready(function() {
       modal.style.display = "none";
     }
   }
-  document.querySelectorAll('.cards a').forEach(anchor => {
-    anchor.onclick = function(e) {
-        e.preventDefault();
-        document.querySelector(anchor.getAttribute('href')).style.display = 'block';
-    }
-});
+    document.querySelectorAll('.cards a').forEach(anchor => {
+        anchor.onclick = function(e) {
+            e.preventDefault();
+            document.querySelector(anchor.getAttribute('href')).style.display = 'block';
+        }
+    });
 
-document.querySelectorAll('.modal .close').forEach(span => {
-    span.onclick = function() {
-        span.closest('.modal').style.display = 'none';
-    }
-});
+    document.querySelectorAll('.modal .close').forEach(span => {
+        span.onclick = function() {
+            span.closest('.modal').style.display = 'none';
+        }
+    });
 
-window.onclick = function(event) {
-    if (event.target.classList.contains('modal')) {
-        event.target.style.display = 'none';
+    window.onclick = function(event) {
+        if (event.target.classList.contains('modal')) {
+            event.target.style.display = 'none';
+        }
     }
-}
   });

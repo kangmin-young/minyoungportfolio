@@ -185,7 +185,7 @@ vertical-align: top;
 }
 .section>div{
   justify-content: right;
-  padding: 0 100px;
+  padding: 0 80px;
 }
 .section>div>p{
   font-family: Arial, Helvetica, sans-serif;
@@ -334,11 +334,11 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
   color: white;
 }
 .designs h2{
-  font-size:80px;
+  font-size:70px;
   color: #F2EB97;
 }
 .cafeimg{
-  width: 1000px;
+  width: 900px;
   height: 600px;
   background: #fff;
   overflow: hidden;
@@ -397,37 +397,36 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
       width: 100%;
       height: auto;
     }
-
-
-  }
   .designs{
     background-color: black;
+    padding: 20PX;
   }
   .designs>.graphic{
     padding: 50px 0 100px 50px;
     font-size: 100px
   }
   .cards{
-    gap: 100px;
-    width: 1200px;
-    height: 600px;
+    gap: 30px;
+    width: 1500px;
+    padding: 20px;
   }
   .cards>a{
     display: inline-block;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
   .cards>a:hover{
     transform: scale(1.1);
-    transition: all 1s ease-out; 
+
   }
   .cards>a>img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
 
     .footer{
       background-color: black;
+      height:350px;
       color: #F2EB97;
     }
     .text-3d {
