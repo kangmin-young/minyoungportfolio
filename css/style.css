@@ -329,11 +329,11 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
 }
 
 /*design*/
-.cafe{
+.designs{
   background-color: black;
   color: white;
 }
-.cafe h2{
+.designs h2{
   font-size:80px;
   color: #F2EB97;
 }
@@ -344,20 +344,20 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
   overflow: hidden;
 }
 
-.cafe>div>div>p{
+.designs>div>div>p{
   padding-top: 0px;
   padding-bottom: 50px;
 }
-.cafe>div>div>p:last-child{
+.designs>div>div>p:last-child{
   padding-top: 0px;
 }
-.cafe>div>a>{
+.designs>div>a>{
   display: inline-block;
   width: 700px;
   height: 437px;
 
 }
-.cafe>div>a>img:hover{
+.designs>div>a>img:hover{
   transform: scale(1.1);
   transition: all 1s ease-out; 
 }
@@ -398,12 +398,38 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
       height: auto;
     }
 
+
+  }
+  .designs{
+    background-color: black;
+  }
+  .designs>.graphic{
+    padding: 50px 0 100px 50px;
+    font-size: 100px
+  }
+  .cards{
+    gap: 100px;
+    width: 1200px;
+    height: 600px;
+  }
+  .cards>a{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+  }
+  .cards>a:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-out; 
+  }
+  .cards>a>img{
+    width: 500px;
+    height: 500px;
+  }
+
     .footer{
       background-color: black;
       color: #F2EB97;
     }
     .text-3d {
-      font-size: 200PX;
-      color: #F2EB97; /* 텍스트 색상 */
-
-  }
+      font-size: 250px;
+      color: #F2EB97; /* 텍스트 색상 */}
