@@ -407,7 +407,6 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
   }
   .cards{
     gap: 30px;
-    width: 1500px;
     padding: 20px;
   }
   .cards>a{
@@ -423,12 +422,11 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
     width: 400px;
     height: 400px;
   }
-
-    .footer{
+  .text-3d {
+      font-size: 250px;
+      color: #F2EB97; /* 텍스트 색상 */}
+  .footer{
       background-color: black;
       height:350px;
       color: #F2EB97;
     }
-    .text-3d {
-      font-size: 250px;
-      color: #F2EB97; /* 텍스트 색상 */}
