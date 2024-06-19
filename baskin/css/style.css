@@ -56,7 +56,7 @@ nav ul li:first-child{
     top:3px;
 }
 .bgimg{
-    background: url(images/bg_hero.jpg);
+    background: url(../images/bg_hero.jpg);
     padding-top: 20px;
     padding-bottom: 20px;
         position: relative;
@@ -65,7 +65,7 @@ nav ul li:first-child{
 .main_visual{
     position:relative;
     margin: auto;
-    background: url(/baskin/images/bg_hero_frame.png)no-repeat 0 0;
+    background: url(../images/bg_hero_frame.png)no-repeat 0 0;
     background-size:1500px auto;
 }
 
@@ -225,26 +225,26 @@ right: 350px;
 }
 .thebest>a{
     color:#ff4d6d;
-    background: url(/baskin/images/1a386a6938953dda4cfc44c4acce76d1.jpg)no-repeat;
+    background: url(../images/1a386a6938953dda4cfc44c4acce76d1.jpg)no-repeat;
 }
 
 .ice>a{
     color: #0077b6;
-    background: url(/baskin/images/아이스모찌민트초코봉봉.jpg)no-repeat;
+    background: url(../images/아이스모찌민트초코봉봉.jpg)no-repeat;
 }
 .blacktea>a{
     color: #ff6700;
-    background: url(/baskin/images/자몽블랙티블라스트.jpg)no-repeat;
+    background: url(../images/자몽블랙티블라스트.jpg)no-repeat;
 
 }
 .maxim>a{
     color: #7f4f24;
-    background: url(/baskin/images/맥심스틱바슈프림골드.jpg)no-repeat;
+    background: url(../images/맥심스틱바슈프림골드.jpg)no-repeat;
 }
 .main_visual4{
     width: 100%;
     height: 900px;
-    background: url(/baskin/images/bg_play_light.png)no-repeat,url(/baskin/images/bg_play.jpg);
+    background: url(../images/bg_play_light.png)no-repeat,url(../images/bg_play.jpg);
     background-position: center;
 }
 .main_visual4_h{
@@ -321,13 +321,13 @@ right: 350px;
 
 }
 .pinkfarm>a{
-    background: url(/baskin/images/pinkfarm.png)no-repeat;
+    background: url(../images/pinkfarm.png)no-repeat;
 }
 .pinkdream>a{
-    background: url(/baskin/images/img_dream.png)no-repeat;
+    background: url(../images/img_dream.png)no-repeat;
 }
 .pinklink>a{
-    background: url(/baskin/images/img_dream.png)no-repeat;
+    background: url(../images/img_dream.png)no-repeat;
 }
 .brbetter_h1{
     color:#947244;
