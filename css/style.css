@@ -311,7 +311,7 @@ animation: arrow-wave 1s infinite; animation-direction: alternate;}
 }
 .dots {
   position: absolute;
-  bottom: 20px;
+  bottom: 150px;
   width: 100%;
   text-align: center;
 }
